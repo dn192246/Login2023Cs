@@ -28,41 +28,41 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnUsuarios = new System.Windows.Forms.Button();
+            this.btnVentas = new System.Windows.Forms.Button();
+            this.btnPlanilla = new System.Windows.Forms.Button();
             this.lbUsuario = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // button1
+            // btnUsuarios
             // 
-            this.button1.Location = new System.Drawing.Point(57, 116);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(178, 152);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Administrar Usuarios";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnUsuarios.Location = new System.Drawing.Point(57, 116);
+            this.btnUsuarios.Margin = new System.Windows.Forms.Padding(4);
+            this.btnUsuarios.Name = "btnUsuarios";
+            this.btnUsuarios.Size = new System.Drawing.Size(178, 152);
+            this.btnUsuarios.TabIndex = 0;
+            this.btnUsuarios.Text = "Administrar Usuarios";
+            this.btnUsuarios.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnVentas
             // 
-            this.button2.Location = new System.Drawing.Point(513, 116);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(178, 152);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Administrar Ventas";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnVentas.Location = new System.Drawing.Point(513, 116);
+            this.btnVentas.Margin = new System.Windows.Forms.Padding(4);
+            this.btnVentas.Name = "btnVentas";
+            this.btnVentas.Size = new System.Drawing.Size(178, 152);
+            this.btnVentas.TabIndex = 1;
+            this.btnVentas.Text = "Administrar Ventas";
+            this.btnVentas.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnPlanilla
             // 
-            this.button3.Location = new System.Drawing.Point(285, 116);
-            this.button3.Margin = new System.Windows.Forms.Padding(4);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(178, 152);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Planilla";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnPlanilla.Location = new System.Drawing.Point(285, 116);
+            this.btnPlanilla.Margin = new System.Windows.Forms.Padding(4);
+            this.btnPlanilla.Name = "btnPlanilla";
+            this.btnPlanilla.Size = new System.Drawing.Size(178, 152);
+            this.btnPlanilla.TabIndex = 2;
+            this.btnPlanilla.Text = "Planilla";
+            this.btnPlanilla.UseVisualStyleBackColor = true;
             // 
             // lbUsuario
             // 
@@ -79,12 +79,12 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(751, 341);
             this.Controls.Add(this.lbUsuario);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnPlanilla);
+            this.Controls.Add(this.btnVentas);
+            this.Controls.Add(this.btnUsuarios);
             this.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Dashboard";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -96,9 +96,9 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnUsuarios;
+        private System.Windows.Forms.Button btnVentas;
+        private System.Windows.Forms.Button btnPlanilla;
         private System.Windows.Forms.Label lbUsuario;
     }
 }
